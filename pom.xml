@@ -79,6 +79,9 @@
                 <groupId>io.openliberty.tools</groupId>
                 <artifactId>liberty-maven-plugin</artifactId>
                 <version>3.5.1</version>
+                <configuration>
+                    <include>all,runnable</include>
+                </configuration>                    
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
